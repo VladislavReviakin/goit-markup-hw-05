@@ -703,6 +703,12 @@ body {
   display: block;
   position: relative;
   margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+  
 }
 
 .form-input-zone {
@@ -799,6 +805,6 @@ body {
   width: 105px;
 }
 
-.hw5corect-div {
+.hwcorect-div {
   margin-bottom: 8px;
 }
