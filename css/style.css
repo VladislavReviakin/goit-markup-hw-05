@@ -549,7 +549,6 @@ body {
 
 .modal {
   position: absolute;
-  padding: 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -565,6 +564,8 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*hw5-corect*/
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close-btn {
@@ -693,9 +694,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   margin-top: 48px;
   margin-bottom: 16px;
+  color: #2E2F42;
 }
 
 .form-zone {
