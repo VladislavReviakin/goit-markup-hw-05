@@ -441,7 +441,10 @@
       <div class="hwcorect-div hwcorect-text-div">
         <label for="user-comment" class="form-zone"><span class="form-text">Comment</span></label> <textarea id="user-comment" class="form-message" name="user-comment" placeholder="Text input"></textarea></div>
         <div class="checkbox-div form-zone">
-        <input class="checkbox-text" type="checkbox" name="privacy-polici" required/>I accept the terms and conditions of the <a href="">Privacy Policy</a></div>
+        <input id="user-privacy" value="true" class="checkbox-text visually-hidden" type="checkbox" name="user-privacy" required/></div>
+        <label for="user-privacy" class="user-privacy-text"><span class="checkbox-icon"><svg class="checkbox-icon-svg" width="10" height="8">
+          <use href="./images/icons.svg#icon-Vector"></use>
+        </svg></span> I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a></label>
         <button class="button modal-submit-button" type="submit"><span class="send-text">Send</span></button>
       </form>
       </div>
