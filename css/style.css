@@ -838,7 +838,7 @@ body {
   color: #8e8f99;
 }
 
-.checkbox-text:checked + .checkbox-icon{
+.checkbox-text:checked + .checkbox-icon .user-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
